@@ -1,0 +1,56 @@
+/** {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border: 1px solid black;
+}*/
+
+html { font-size: 62.5%; }
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
+
+/*.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}*/
+
+.title{
+  height: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.body{
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.footer{
+  display: inline-block;
+  width: 100%;
+}
+.purchase{
+  display:inline;
+  width: 50%;
+  height: 300px;
+}
+
+.purchase-stuff{
+  padding-left: 300px;
+  padding-right: 30px;
+}
+
+.purchase button{
+  padding: 10px;
+
+}
+
+.purchase img{
+  float: left;
+}
+.bottom-section{
+  margin-top: 180px;
+}
