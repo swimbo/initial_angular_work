@@ -36,13 +36,21 @@
           <div>
             <img src="http://placehold.it/250x250">
           </div>
-          <div class="purchase-stuff" ng-controller="buttonCtrl">
+          <div class="purchase-stuff">
             <h3>Buy this now</h3>
             <p>
               Here's why you should... lots of reasons to list here. just telling you why more and more benefits. layer them on.
             </p>
-              <button class="button1" type="button" ng-click="consoleLog()">Click Me!</button>
-          </div>
+              <div  ng-controller="buttonCtrl">
+                <button class="button1" type="button" ng-click="consoleLog()">Click Me!</button>
+
+                <button class="button2" type="button" ng-click="showHide()">Hide something</button>
+
+
+                  <div ng-show="toggle">
+                    <h1>Text that will toggle </h1>
+                  </div>
+              </div>
         </div>
         <div class="bottom-section">
           <p>
